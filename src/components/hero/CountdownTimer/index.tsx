@@ -19,7 +19,7 @@ const CountdownTimer: React.FC<CountdownTimerProps> = ({
         }
         return prevTime - 1;
       });
-    }, 72);
+    }, 1000);
 
     return () => clearInterval(interval); // Cleanup on unmount
   }, []);
