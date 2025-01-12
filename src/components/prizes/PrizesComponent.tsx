@@ -1,7 +1,6 @@
 import Divider from "./Divider";
 import MainPrize from "./MainPrizeCard";
-import SpecialPrize from "./SpecialPrizeCardImage";
-import Image from "next/image";
+
 import { Hubot_Sans } from "next/font/google";
 
 const hubot = Hubot_Sans({
@@ -13,25 +12,21 @@ export default function Prizes() {
   const PrizeInfo = [
     //Gold, silver and bronze images
     {
-      src: "/images/prizes/gold.svg",
+      src: "/images/prizes/swag1.png",
       width: 300,
       height: 300,
-      // price: "₹50,000",
-      price: "???",
       alt: "1st",
     },
     {
-      src: "/images/prizes/bronze.svg",
+      src: "/images/prizes/swag2.png",
       width: 250,
       height: 250,
-      price: "???",
       alt: "3rd",
     },
     {
-      src: "/images/prizes/silver.svg",
+      src: "/images/prizes/swag3.png",
       width: 250,
       height: 250,
-      price: "???",
       alt: "2nd",
     },
   ];
@@ -157,14 +152,13 @@ export default function Prizes() {
             src={PrizeInfo[1].src} //bronze
             width={PrizeInfo[1].width}
             height={PrizeInfo[1].height}
-            price={PrizeInfo[1].price}
             alt={PrizeInfo[1].alt}
           />
         </div>
         <div className="w-[40%]">
           <div className="absolute z-[-1] left-1/2 transform -translate-x-1/2">
             <div className="relative w-[220px] h-[300px] ml-[10px] md:w-[600px] md:h-[600px] md:mt-12">
-              <Image src="/images/prizes/bg.png" fill priority alt="Background" />
+              
             </div>
           </div>
           <div className="absolute">
@@ -178,7 +172,6 @@ export default function Prizes() {
             src={PrizeInfo[0].src} //gold
             width={PrizeInfo[0].width}
             height={PrizeInfo[0].height}
-            price={PrizeInfo[0].price}
             alt={PrizeInfo[0].alt}
           />
         </div>
@@ -190,7 +183,6 @@ export default function Prizes() {
             src={PrizeInfo[2].src} //silver
             width={PrizeInfo[2].width}
             height={PrizeInfo[2].height}
-            price={PrizeInfo[2].price}
             alt={PrizeInfo[2].alt}
           />
         </div>
