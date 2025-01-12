@@ -16,19 +16,19 @@ type MainPrizeProp = {
 export default function MainPrizeCard({ src, width, height, alt }: MainPrizeProp) {
   const gradientStyle = () => {
     switch (alt) {
-      case "1st":
+      case "Google Tshirt":
         return {
           background: "linear-gradient(120deg, #FFCC49, #FFFF72)", 
           WebkitBackgroundClip: "text",
           WebkitTextFillColor: "transparent",
         };
-      case "2nd":
+      case "Coding Ninja":
         return {
           background: "linear-gradient(120deg, #4394EA, #B5FFFF)", 
           WebkitBackgroundClip: "text",
           WebkitTextFillColor: "transparent",
         };
-      case "3rd":
+      case "GDG":
         return {
           background: "linear-gradient(270deg, #89A1C5, #FFFFFF)",
           WebkitBackgroundClip: "text",
