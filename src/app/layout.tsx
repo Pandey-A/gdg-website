@@ -24,22 +24,23 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  metadataBase: new URL('https://www.devshouse.in'),
+  metadataBase: new URL('https://spidercraft.gdgoc.one'),
   title: `Spider Craft`,
-  description: 'Hack it. Build it. Own it.',
+  description: 'Fight. Solve. Win.',
   openGraph: {
     title: `Spider Craft`,
-    description: 'Hack it. Build it. Own it.',
-    url: 'https://www.devshouse.in',
+    description: 'Fight. Solve. Win.',
+    url: 'https://spidercraft.gdgoc.one',
     images: [
       {
-        url: '/opengraph-image.jpg',
+        url: '../public/gdglogos.png',
         width: 1200,
         height: 630,
-        alt: 'DevsHouse | A community of developers',
+        alt: 'GDG RBU | A community of developers',
       },
     ],
   },
+  
 };
 
 export default function RootLayout({
