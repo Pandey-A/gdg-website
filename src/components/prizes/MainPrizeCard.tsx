@@ -55,7 +55,7 @@ export default function MainPrizeCard({ src, width, height, alt }: MainPrizeProp
         {/* <h1 >INR {price}</h1> */}
         <h1 className="bold text-xl md:text-5xl mt-20"
           style={hubot.style}
-        >{alt} {" "} Swag</h1>
+        >{alt} {" "} </h1>
       </div>
     </div>
   );
