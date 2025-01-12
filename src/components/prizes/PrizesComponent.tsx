@@ -13,14 +13,14 @@ export default function Prizes() {
     //Gold, silver and bronze images
     {
       src: "/images/prizes/swag1.png",
-      width: 300,
-      height: 300,
+      width: 400,
+      height: 400,
       alt: "1st",
     },
     {
       src: "/images/prizes/swag2.png",
-      width: 250,
-      height: 250,
+      width: 350,
+      height: 350,
       alt: "3rd",
     },
     {
