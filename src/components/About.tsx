@@ -1,7 +1,7 @@
 // pages/About2.js
 import React from "react";
-import vitimage from "../../public/AboutsImages/vit-image.svg";
-import gdscimage from "../../public/AboutsImages/GDSC_team.png";
+import rbuimage from "../../public/AboutsImages/vit-image.svg";
+import gdscimage from "../../public/AboutsImages/GDSC_teams.jpeg";
 import clubLogo from "../../public/AboutsImages/GDSC_Logo.svg";
 import diamond from "../../public/AboutsImages/Diamond.svg";
 import glitter from "../../public/AboutsImages/Glitter.svg"; // Import the Glitter SVG
@@ -29,8 +29,8 @@ export default function About() {
           </p>
         </div>
         <Image
-          src={vitimage}
-          alt={"VIT IMAGE"}
+          src={rbuimage}
+          alt={"RBU IMAGE"}
           className="md:w-2/5"
         ></Image>
       </div>
