@@ -108,7 +108,7 @@ const HeroContent = () => {
   }, [isModalOpen]);
 
   return (
-    <div className="flex flex-col justify-center items-center gap-y-0 w-full">
+    <div className="flex flex-col justify-center items-center sm:mt-0 gap-y-0 w-full">
       <div className="flex flex-col justify-center items-start gap-y-0">
         <div className="flex flex-col justify-center items-start text-white w-full md:max-w-[875px]">
           <div className="flex flex-col justify-center max-md:items-center md:items-start">
@@ -144,27 +144,28 @@ const HeroContent = () => {
         <div className="px-4">
           <CountdownTimer targetTime={timeLeft} />
         </div>
-        <div className="flex md:gap-x-4 max-md:justify-center max-md:gap-x-4 max-md:px-2 w-full">
-          <Button
-            size="compact-lg"
-            className="button-Sponsor mt-3 md:mx-4"
-            onClick={() => setIsModalOpen(true)}
-          >
-            Register Now!
-          </Button>
-          <Link
-            target="_blank"
-            href="https://discord.gg/6qEqv2ak"
-            passHref
-          >
-            <Button
-              size="compact-lg"
-              className="button-Sponsor mt-3 md:mx-4"
-            >
-              Explore
-            </Button>
-          </Link>
-        </div>
+
+<div className="flex md:gap-x-4 max-md:justify-center max-md:gap-x-4 max-md:px-2 max-md:mt-2 sm:mt-4 w-full">
+  <Button
+    size="compact-lg"
+    className="button-Sponsor max-md:mt-2 md:mt-3 md:mx-4"
+    onClick={() => setIsModalOpen(true)}
+  >
+    Register Now!
+  </Button>
+  <Link
+    target="_blank"
+    href="https://discord.gg/6qEqv2ak"
+    passHref
+  >
+    <Button
+      size="compact-lg"
+      className="button-Sponsor max-md:mt-2 md:mt-3 md:mx-4"
+    >
+      Explore
+    </Button>
+  </Link>
+</div>
       </div>
 
       <RegistrationModal 

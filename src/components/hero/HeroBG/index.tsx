@@ -56,13 +56,7 @@ const HeroBG = ({ children }: Props) => {
         </div>
 
         <div className="flex justify-between w-full">
-          <Image
-            src="/images/wireframe-50.svg"
-            alt="bg-asset"
-            height={250}
-            width={250}
-            className="-z-10 relative -top-[100px] opacity-50 max-md:-left-28 max-md:opacity-30"
-          />
+
 
           <Image
             src="/images/rectangle-66.svg"

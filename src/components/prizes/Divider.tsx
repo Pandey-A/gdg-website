@@ -11,7 +11,7 @@ export default function Divider({ heading, mt, mb }: { heading: string, mt: stri
             <div className="w-[25%] border-0 border-white border-t-2 border-dashed m-4 sm:w-[25%] lg:w-[30%]"></div>
             <div className=" text-white text-[20px] font-bold font-space sm:text-[30px] lg:[40px]"
                 style={hubot.style}
-            >{heading}</div>
+            >Prizes Overview</div>
             <div className="w-[25%] border-0 border-white border-t-2 border-dashed m-4 sm:w-[25%] lg:w-[30%]"></div>
         </div >
     );

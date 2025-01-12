@@ -141,7 +141,7 @@ export default function Prizes() {
       </svg>
 
       <h1 className="text-white font-bold absolute text-[25px] font-mona z-10 sm:text-[30px] md:text-[35px] lg:text-[44px] text-center transform -translate-y-1/2 top-1/2">
-        PRIZES
+        Auction Prizes
       </h1>
 
     
