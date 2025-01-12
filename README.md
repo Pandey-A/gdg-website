@@ -1,14 +1,4 @@
-# Devshouse
 
-Welcome to **Devshouse** — the ultimate hackathon to empower developers and creators! 
-
-## Contribution Rules
-
-Before contributing to this project, please read the [Contribution Rules](https://docs.google.com/document/d/1nc8brE-FHtEbmq7TORQ-KCOWcsBSGN_hZuhdQcPr4sQ/edit?usp=sharing).
-
----
-
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 Live site: 
 
