@@ -144,7 +144,7 @@ const Panorama: React.FC = () => {
             Swipe Left
           </p>
           <Image
-            src="/Glimpsesimages/arrow.png"
+            src="/Memories/arrow.png"
             alt="arrow"
             width={20}
             height={10}
