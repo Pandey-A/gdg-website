@@ -14,20 +14,20 @@ export default function Prizes() {
     {
       src: "/images/prizes/swag1.png",
       width: 400,
-      height: 400,
-      alt: "1st",
+      height: 300,
+      alt: "Google Tshirt",
     },
     {
       src: "/images/prizes/swag2.png",
       width: 350,
       height: 350,
-      alt: "3rd",
+      alt: "GDG",
     },
     {
       src: "/images/prizes/swag3.png",
       width: 250,
       height: 250,
-      alt: "2nd",
+      alt: "Coding Ninja",
     },
   ];
 
