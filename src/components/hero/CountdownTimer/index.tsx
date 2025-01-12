@@ -100,6 +100,22 @@ const CountdownTimer: React.FC<CountdownTimerProps> = ({
             m
           </span>
         </div>
+        <span className="md:flex hidden flex-col items-center justify-end gap-y-3">
+          <span className="p-2 border-2 border-white/40" />
+          <span className="p-2 border-2 border-white/40" />
+        </span>
+        <span className="max-md:flex hidden text-white/40 max-md:text-white/80 text-[30px]">
+          :
+        </span>
+          <div className="flex items-end justify-center max-md:gap-x-2 md:gap-x-4">
+          <WordRotate
+            className="text-[30px] md:text-[122px] font-bold text-white/40 max-md:text-white/80"
+            words={[remainingSeconds.toString()]}
+          />
+          <span className="text-[30px] md:text-[122px] text-white/40 max-md:text-white/80">
+            s
+          </span>
+        </div>
       </div>
     </div>
   );
