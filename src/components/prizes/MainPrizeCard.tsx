@@ -10,11 +10,10 @@ type MainPrizeProp = {
   src: string; // image src link
   width: number;
   height: number;
-  price: string; // Ex: 30,000
   alt: string; // 1st, 2nd or 3rd
 };
 
-export default function MainPrizeCard({ src, width, height, price, alt }: MainPrizeProp) {
+export default function MainPrizeCard({ src, width, height, alt }: MainPrizeProp) {
   const gradientStyle = () => {
     switch (alt) {
       case "1st":
@@ -49,7 +48,6 @@ export default function MainPrizeCard({ src, width, height, price, alt }: MainPr
           }`}
           style={{...gradientStyle(), ...hubot.style}}
         >
-          {price}
         </h1>
       </div>
       <Image src={src} alt={`${alt} place`} width={width} height={height} />
@@ -57,7 +55,7 @@ export default function MainPrizeCard({ src, width, height, price, alt }: MainPr
         {/* <h1 >INR {price}</h1> */}
         <h1 className="bold text-xl md:text-5xl mt-20"
           style={hubot.style}
-        >{alt} {" "} Prize</h1>
+        >{alt} {" "} Swag</h1>
       </div>
     </div>
   );
